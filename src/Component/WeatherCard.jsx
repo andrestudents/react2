@@ -2,7 +2,7 @@
 
 function WeatherCard({ data }) {
     return (
-        <div className="mt-8 p-6 bg-yellow-100 rounded-full shadow-lg text-center w-80">
+        <div className="mt-8 p-6 bg-red-100 rounded-full shadow-lg text-center w-80">
             <h1 className="text-3xl font-bold mb-2">{data.name}</h1>
             <p className="text-gray-600 mb-4 italic">{data.weather[0].description}</p>
             <img
